@@ -13,6 +13,8 @@ namespace example1
 {
     public partial class Form1 : Form
     {
+        private MyClass mc = new MyClass();
+
         public Form1()
         {
             InitializeComponent();
@@ -22,14 +24,14 @@ namespace example1
         {
             double x = double.Parse(texA.Text);
             double y = double.Parse(texB.Text);
-            // double result = 0.0;
-            if (texSelectNum.Text == "+") //+
+            int texSelectNum = mc.texSelectNum;
+            if (texSelectNum == 1)                   //+
                 texResult.Text = (x + y).ToString();
-            else if (texSelectNum.Text == "-") //-
+            else if (texSelectNum == 2)              //-
                 texResult.Text = (x - y).ToString();
-            else if (texSelectNum.Text == "*") //*
+            else if (texSelectNum == 3)              //*
                 texResult.Text = (x * y).ToString();
-            else if (texSelectNum.Text == "/") // /
+            else if (texSelectNum == 4)              // /
                 texResult.Text = (x / y).ToString();
             else { }
         }
@@ -40,6 +42,7 @@ namespace example1
             { }
             else
             {
+                mc.texSelectNum = 1;
                 texSelectNum.Text = "+";
             }
         }
@@ -50,6 +53,7 @@ namespace example1
             { }
             else
             {
+                mc.texSelectNum = 2;
                 texSelectNum.Text = "-";
             }
         }
@@ -60,6 +64,7 @@ namespace example1
             { }
             else
             {
+                mc.texSelectNum = 3;
                 texSelectNum.Text = "*";
             }
         }
@@ -70,6 +75,7 @@ namespace example1
             { }
             else
             {
+                mc.texSelectNum = 4;
                 texSelectNum.Text = "/";
             }
         }
@@ -80,97 +86,105 @@ namespace example1
 
         public void btm0_Click(object sender, EventArgs e)
         {
+            mc.keyinString = "0";
             if (((texA.Text == "0") || (texA.Text == "")) && ((texB.Text == "0") || (texB.Text == "")))
             {
-                texA.Text = 0.ToString();
+                texA.Text = mc.keyinString;
             }
             else
             {
-                texB.Text = 0.ToString();
+                texB.Text = mc.keyinString;
             }
         }
 
         private void btm1_Click(object sender, EventArgs e)
         {
+            mc.keyinString = "1";
             if (((texA.Text == "0") || (texA.Text == "")) && ((texB.Text == "0") || (texB.Text == "")))
             {
-                texA.Text = 1.ToString();
+                texA.Text = mc.keyinString;
             }
             else
             {
-                texB.Text = 1.ToString();
+                texB.Text = mc.keyinString;
             }
         }
 
         private void btm2_Click(object sender, EventArgs e)
         {
+            mc.keyinString = "2";
             if (((texA.Text == "0") || (texA.Text == "")) && ((texB.Text == "0") || (texB.Text == "")))
             {
-                texA.Text = 2.ToString();
+                texA.Text = mc.keyinString;
             }
             else
             {
-                texB.Text = 2.ToString();
+                texB.Text = mc.keyinString;
             }
         }
 
         private void btm3_Click(object sender, EventArgs e)
         {
+            mc.keyinString = "3";
             if (((texA.Text == "0") || (texA.Text == "")) && ((texB.Text == "0") || (texB.Text == "")))
             {
-                texA.Text = 3.ToString();
+                texA.Text = mc.keyinString;
             }
             else
             {
-                texB.Text = 3.ToString();
+                texB.Text = mc.keyinString;
             }
         }
 
         private void btm4_Click(object sender, EventArgs e)
         {
+            mc.keyinString = "4";
             if (((texA.Text == "0") || (texA.Text == "")) && ((texB.Text == "0") || (texB.Text == "")))
             {
-                texA.Text = 4.ToString();
+                texA.Text = mc.keyinString;
             }
             else
             {
-                texB.Text = 4.ToString();
+                texB.Text = mc.keyinString;
             }
         }
 
         public void btm5_Click(object sender, EventArgs e)
         {
+            mc.keyinString = "5";
             if (((texA.Text == "0") || (texA.Text == "")) && ((texB.Text == "0") || (texB.Text == "")))
             {
-                texA.Text = 5.ToString();
+                texA.Text = mc.keyinString;
             }
             else
             {
-                texB.Text = 5.ToString();
+                texB.Text = mc.keyinString;
             }
         }
 
         private void btm6_Click(object sender, EventArgs e)
         {
+            mc.keyinString = "6";
             if (((texA.Text == "0") || (texA.Text == "")) && ((texB.Text == "0") || (texB.Text == "")))
             {
-                texA.Text = 6.ToString();
+                texA.Text = mc.keyinString;
             }
             else
             {
-                texB.Text = 6.ToString();
+                texB.Text = mc.keyinString;
             }
         }
 
         private void btm7_Click(object sender, EventArgs e)
         {
+            mc.keyinString = "7";
             if (((texA.Text == "0") || (texA.Text == "")) && ((texB.Text == "0") || (texB.Text == "")))
             {
-                texA.Text = 7.ToString();
+                texA.Text = mc.keyinString;
             }
             else
             {
-                texB.Text = 7.ToString();
+                texB.Text = mc.keyinString;
             }
         }
 
@@ -178,23 +192,25 @@ namespace example1
         {
             if (((texA.Text == "0") || (texA.Text == "")) && ((texB.Text == "0") || (texB.Text == "")))
             {
-                texA.Text = 8.ToString();
+                mc.keyinString = "8";
+                texA.Text = mc.keyinString;
             }
             else
             {
-                texB.Text = 8.ToString();
+                texB.Text = mc.keyinString;
             }
         }
 
         private void btm9_Click(object sender, EventArgs e)
         {
+            mc.keyinString = "9";
             if (((texA.Text == "0") || (texA.Text == "")) && ((texB.Text == "0") || (texB.Text == "")))
             {
-                texA.Text = 9.ToString();
+                texA.Text = mc.keyinString;
             }
             else
             {
-                texB.Text = 9.ToString();
+                texB.Text = mc.keyinString;
             }
         }
 

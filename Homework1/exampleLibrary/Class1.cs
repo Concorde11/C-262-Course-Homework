@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace exampleLibrary
 {
-    public class Keyin
+    public class MyClass
     {
-        public int keyinNum;
-        public int keyinSelect;
-        public int calMode;
+        //宣告自定義的字串變數(屬性)
+        public String keyinString { get; set; }
+
+        //宣告自定義的整數變數(屬性)
+        public int texSelectNum { get; set; }
     }
 }
