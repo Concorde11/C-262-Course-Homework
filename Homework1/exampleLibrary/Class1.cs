@@ -9,7 +9,9 @@ namespace exampleLibrary
     public class MyClass
     {
         //宣告自定義的字串變數(屬性)
-        public String keyinString { get; set; }
+        public double keyinAnum { get; set; }
+
+        public double keyinBnum { get; set; }
 
         //宣告自定義的整數變數(屬性)
         public int texSelectNum { get; set; }
