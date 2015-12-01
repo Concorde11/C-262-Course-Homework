@@ -1,0 +1,5 @@
+c:\users\bill\documents\visual studio 2015\Projects\[homework1]1130_2015\exampleLibrary\bin\Debug\exampleLibrary.dll
+c:\users\bill\documents\visual studio 2015\Projects\[homework1]1130_2015\exampleLibrary\bin\Debug\exampleLibrary.pdb
+c:\users\bill\documents\visual studio 2015\Projects\[homework1]1130_2015\exampleLibrary\obj\Debug\exampleLibrary.csprojResolveAssemblyReference.cache
+c:\users\bill\documents\visual studio 2015\Projects\[homework1]1130_2015\exampleLibrary\obj\Debug\exampleLibrary.dll
+c:\users\bill\documents\visual studio 2015\Projects\[homework1]1130_2015\exampleLibrary\obj\Debug\exampleLibrary.pdb

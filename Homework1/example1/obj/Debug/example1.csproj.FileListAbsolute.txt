@@ -1,0 +1,11 @@
+c:\users\bill\documents\visual studio 2015\Projects\[homework1]1130_2015\example1\bin\Debug\example1.exe.config
+c:\users\bill\documents\visual studio 2015\Projects\[homework1]1130_2015\example1\bin\Debug\example1.exe
+c:\users\bill\documents\visual studio 2015\Projects\[homework1]1130_2015\example1\bin\Debug\example1.pdb
+c:\users\bill\documents\visual studio 2015\Projects\[homework1]1130_2015\example1\obj\Debug\example1.csprojResolveAssemblyReference.cache
+c:\users\bill\documents\visual studio 2015\Projects\[homework1]1130_2015\example1\obj\Debug\example1.Properties.Resources.resources
+c:\users\bill\documents\visual studio 2015\Projects\[homework1]1130_2015\example1\obj\Debug\example1.csproj.GenerateResource.Cache
+c:\users\bill\documents\visual studio 2015\Projects\[homework1]1130_2015\example1\obj\Debug\example1.exe
+c:\users\bill\documents\visual studio 2015\Projects\[homework1]1130_2015\example1\obj\Debug\example1.pdb
+c:\users\bill\documents\visual studio 2015\Projects\[homework1]1130_2015\example1\obj\Debug\example1.Form1.resources
+C:\Users\Bill\Documents\Visual Studio 2015\Projects\[homework1]1130_2015\example1\bin\Debug\exampleLibrary.dll
+C:\Users\Bill\Documents\Visual Studio 2015\Projects\[homework1]1130_2015\example1\bin\Debug\exampleLibrary.pdb
